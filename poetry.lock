@@ -1,0 +1,51 @@
+[[package]]
+category = "main"
+description = "A high-level Python Web framework that encourages rapid development and clean, pragmatic design."
+name = "django"
+optional = false
+python-versions = "*"
+version = "1.5.1"
+
+[[package]]
+category = "main"
+description = "Python interface to MySQL"
+name = "mysqlclient"
+optional = false
+python-versions = "*"
+version = "1.4.5"
+
+[[package]]
+category = "main"
+description = "South: Migrations for Django"
+name = "south"
+optional = false
+python-versions = "*"
+version = "0.8.1"
+
+[[package]]
+category = "main"
+description = "Database Abstraction Library"
+name = "sqlalchemy"
+optional = false
+python-versions = "*"
+version = "0.9.8"
+
+[metadata]
+content-hash = "111b17119cdd85d62df672e634bdd78a3e33e4078fe4fdfb6717e2e08634d324"
+python-versions = "2.7"
+
+[metadata.files]
+django = [
+    {file = "Django-1.5.1.tar.gz", hash = "sha256:885fadcbb8963c0ccda5d9d2cca792970b0289b4e662406b2de2b736ff46123d"},
+]
+mysqlclient = [
+    {file = "mysqlclient-1.4.5-cp36-cp36m-win_amd64.whl", hash = "sha256:6ad22de8ea3aba03ce1b202ed175e0c7a8b82fcdab8f57b1649c596550ed785a"},
+    {file = "mysqlclient-1.4.5-cp37-cp37m-win_amd64.whl", hash = "sha256:5c008e74b1c4a42271172c35f28a698cf79a7cba5d2bc811125e963f28001c34"},
+    {file = "mysqlclient-1.4.5.tar.gz", hash = "sha256:e80109b0ae8d952b900b31b623181532e5e89376d707dcbeb63f99e69cefe559"},
+]
+south = [
+    {file = "South-0.8.1.tar.gz", hash = "sha256:b695477fc7171d8844a0477a8caa688d6988d895ec14faa817f44def8a5d7845"},
+]
+sqlalchemy = [
+    {file = "SQLAlchemy-0.9.8.tar.gz", hash = "sha256:de3ac04ecab0a7e0af64eee30a71e723ba5886b958205f7354dd62439da60389"},
+]
