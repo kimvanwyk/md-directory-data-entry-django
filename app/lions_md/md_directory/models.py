@@ -138,6 +138,7 @@ class Club(models.Model):
     po_code = models.CharField('Postal code', blank=True, max_length=20) 
     charter_year = models.IntegerField('Charter Year', blank=True, null=True) 
     website = models.URLField(blank=True, max_length=200)
+    facebook = models.URLField(blank=True, max_length=200)
     suspended_b = models.BooleanField('Is club under suspension?', blank=True)
     zone = models.ForeignKey(Zone, verbose_name="Zone", blank=True, null=True)
     closed_b = models.BooleanField('Is club closed?', blank=True)

@@ -709,7 +709,7 @@ def s_mc_lobs_do_r_z_c_m(request, obj, id=0):
                 exclude.append('id')
             # a dict keyed by objects which need altering, with the length as the value
             field_names = model._meta.get_all_field_names()
-            wid = {'website':60, 'email':50, 'meet_time': 50, 'home_ph':50, 'cell_ph':50, 'bus_ph':50, 'fax':50, 
+            wid = {'website':60, 'facebook': 60, 'email':50, 'meet_time': 50, 'home_ph':50, 'cell_ph':50, 'bus_ph':50, 'fax':50, 
                    'tel':30, 'hours':60, 'manager_email':50, 'manager_cell_ph':50}
             for n in range(1,6):
                 wid['add%d' % n] = 40
